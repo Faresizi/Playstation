@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/zrnic');
+
+
+.Navbar{
+    background-color: #003087;
+  width: 100%;
+  display: flex;
+ align-items: center;
+ flex-direction: row-reverse;
+ justify-content: center;
+ gap: 10px;
+ color: white;
+ font-family: 'Zrnic', sans-serif;
+}

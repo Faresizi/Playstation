@@ -1,0 +1,23 @@
+import React from 'react'
+import './HomeSection.css';
+
+const HomeSection= () => {
+  return (
+    <div className='HomeSection'>
+   <div className='h1'>
+   <h1> what is PlayStation :</h1>
+    <p> PlayStation is a video gaming brand that consists of five home video game consoles
+      , two handhelds, a media center, and a smartphone, as well as an online service 
+      and multiple magazines. 
+      The brand is produced by Sony Interactive Entertainment, a division of Sony.</p>
+      
+   
+   </div>
+   <div className='img'> 
+<img src='data:image/png;base64,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'
+   />     </div>
+    </div>
+  )
+}
+
+export default HomeSection
